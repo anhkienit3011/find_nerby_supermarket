@@ -1,0 +1,33 @@
+2024-06-26 11:48:17.917 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 11:48:17.940 [main] INFO  com.FindSuperMarket.demo.FindNearbySupermarketApplication - Starting FindNearbySupermarketApplication using Java 22.0.1 with PID 16096 (D:\XTel\Spring boot\Find_Nerby_Suppermarket\find_nerby_supermarket\demo\target\classes started by TKien in D:\XTel\Spring boot\Find_Nerby_Suppermarket\find_nerby_supermarket\demo)
+2024-06-26 11:48:17.945 [main] INFO  com.FindSuperMarket.demo.FindNearbySupermarketApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 11:48:18.468 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 11:48:18.518 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 5 JPA repository interfaces.
+2024-06-26 11:48:18.911 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-26 11:48:18.920 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 11:48:18.921 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-26 11:48:18.921 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26 11:48:18.959 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-26 11:48:18.959 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 986 ms
+2024-06-26 11:48:19.086 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 11:48:19.126 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-26 11:48:19.151 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-26 11:48:19.362 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 11:48:19.384 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-26 11:48:19.493 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fb44737
+2024-06-26 11:48:19.494 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-26 11:48:19.518 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 11:48:19.519 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26 11:48:20.276 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 11:48:20.411 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 11:48:20.692 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 11:48:20.705 [main] WARN  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0b1127a3-858b-4154-b46b-32a2931227b8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-26 11:48:20.709 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-06-26 11:48:21.077 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 11:48:21.090 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-26 11:48:21.097 [main] INFO  com.FindSuperMarket.demo.FindNearbySupermarketApplication - Started FindNearbySupermarketApplication in 3.422 seconds (process running for 4.262)
