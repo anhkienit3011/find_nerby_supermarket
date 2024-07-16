@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(DuplicateResourceException.class)
     public ResponseEntity<?> duplicateResourceException(DuplicateResourceException ex, WebRequest request) {
-        ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(), ex.getMessage(), request.getDescription(false));
+        ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(), ex.getMessage(), request.getDescription(true));
         logger.error("Duplicate resource: {}", ex.getMessage());
         return new ResponseEntity<>(errorDetails, HttpStatus.CONFLICT);
     }
